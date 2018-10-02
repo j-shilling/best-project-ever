@@ -3,6 +3,6 @@ class Book < ActiveRecord::Base
     where(author_name: author_name)
   end
   def title_like(search_term)
-    Book.find(search_term)
+#    Book.find(search_term)
   end
 end
